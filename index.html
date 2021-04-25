@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Organization Info</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button.toggle").click(function () {
+          if ($(this).next().is(":visible")) {
+            $(this).next().hide("slow");
+          } else {
+            $("p").hide("slow");
+            $(this).next().show("slow");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <button class="toggle">About W3C</button>
+    <p class="start">
+      W3C's primary activity is to develop protocols and guidelines that ensure
+      long-term growth for the Web. W3C's standards define key parts of what
+      makes the World Wide Web work. W3C Believes in Web For All, meaning
+      everyone should have access to the internet, especially individuals with
+      disabilities, and they try to make this principle true.
+      <a href="https://www.w3.org/Help/#activity">Learn more here!</a>
+      <br />
+      ~Resources~
+      <br />
+      Validator
+      <br />
+      CSS Validator
+      <br />
+      Amaya
+      <br />
+      Jigsaw
+      <br />
+      Test Development
+      <br />
+      <img
+        src="images/pexels-ann-nekr-5797997.jpg"
+        alt="minimalistic desk with computer and plant"
+        height="500"
+        width="500"
+        style="padding: 15"
+      />
+    </p>
+    <button class="toggle">About IETF</button>
+    <p class="start">
+      The IETF is a large open international community of network designers,
+      operators, vendors, and researchers concerned with the evolution of the
+      Internet architecture and the smooth operation of the Internet. The
+      mission of the IETF is to make the Internet work better by producing high
+      quality, relevant technical documents that influence the way people
+      design, use, and manage the Internet.
+      <a href="https://www.ietf.org/about/">Learn more here!</a>
+      <br />
+      ~Resources~
+      <br />
+      Data Tracker
+      <br />
+      Quick Links
+      <br />
+      Mailarchive
+      <br />
+      Jabber
+      <br />
+      <img
+        src="images/pexels-markus-spiske-1089438.jpg"
+        alt="picture of matrix in green"
+        height="500"
+        width="500"
+        style="padding: 15"
+      />
+    </p>
+    <button class="toggle">About ICANN</button>
+    <p class="start">
+      ICANN is a not-for-profit public-benefit corporation with participants
+      from all over the world dedicated to keeping the Internet secure, stable
+      and interoperable. It promotes competition and develops policy on the
+      Internet's unique identifiers. ICANN plays a unique role in the
+      infrastructure of the internet. Through its contracts with registries
+      (such as dot-com or dot-info) and registrars (companies that sell domain
+      names to individuals and organisations), we help define how the domain
+      name system functions and expands.
+      <a href="https://www.icann.org/get-started">Learn more here!</a>
+      <br />
+      ~Resources~
+      <br />
+      Acroynm Terms
+      <br />
+      Domain Registar
+      <br />
+      Beginners Guide
+      <br />
+      <img
+        src="images/pexels-fauxels-3184454.jpg"
+        alt="table with computer and other devices"
+        height="500"
+        width="500"
+        style="padding: 15"
+      />
+    </p>
+  </body>
+</html>
